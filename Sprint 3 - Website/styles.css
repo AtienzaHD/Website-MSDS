@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'Anton', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Anton');
+}
+body {
+  font-size: 1.6em;
+	background-color: #000000;
+	background-color: #000000;
+	font-family: 'Anton', sans-serif;
+	
+}
+div {
+	max-width: auto;	
+	text-align: center;
+}
+h2{
+	color:white;
+}
+#msds{
+		color:white;
+		padding-left:5px;
+}
+head {
+	max-width: 600px;
+    height: 25px;
+    background-color: #000000;
+}
+
+}
+p {
+	font-size: 12px;
+}
+.logInText{
+	font-size:12px;
+	display:inline;
+	color:white;
+}
+.settings{
+	float:left;
+	padding-left:5px;
+}
+button {
+ position: center;
+ width: 175px;
+ height: 43px;
+ border: 1px solid #fff;
+ background: #000;
+ color: #fff;
+ font-size: 16px;
+ border-radius: 22px;
+ cursor: pointer;
+}
+input {
+	align: center;
+	align-text: center;
+}
+ul {
+	list-style-type: none;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	font-size: 12px;
+}
+homeTitle {
+    font-size: 100px;
+    text-align: center;
+    text-decoration-color: white;
+}
+
+td, th {
+    border: 1px solid #111111;
+    text-align: left;
+    padding: 8px;
+	font-size: 12px;
+	background-color: #dddddd;
+}
+.container{
+	width:900px !important;
+	padding: 2% 0;
+}
+.hidden {
+  display: none;
+}
+.show {
+  display: inLine !important;
+}
+.divider {
+	background-color: #DDDDDD;
+	height: 25px;
+}
+.greyDivider {
+	background-color: #333333;
+	height: 25px;
+	width: 600px; 
+	margin-left: auto;
+    margin-right: auto;
+}
+.titleOfPage {
+	margin-left: auto;
+    margin-right: auto;
+	border-style: solid;
+	border-width: 2px;
+	height: 50px;
+	background-color: #DDDDDD;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.main {
+    margin: 0 auto;
+    width: 900px; 
+	height: 900px;
+}
+.div-center
+{
+     margin: 0 auto;
+     width: 600px; 
+	 height: 900px;
+}
+.mainImage
+{
+     margin: 0 auto;
+     width: 100px; 
+	 height: 100px;
+}
+.loginPage
+{
+     margin: 0 auto;
+     width: 600px; 
+	 height: 600px;
+}
+.divInventory
+{
+     margin: 0 auto;
+     width: 900px; 
+	 height: 900px;
+}
+.sch
+{
+     margin: 0 auto;
+     width: 500px; 
+	 height: 300px;
+	 border-style: solid;
+	 border-width: 5px;
+}
+.accountImage
+{
+     margin: 0 auto;
+     width: 200px; 
+	 height: 200px;
+}
+.down
+{
+	 height: 425px;
+}
+.gap
+{
+	 height: 5px;
+}
+.accountDown
+{
+	 height: 75px;
+}
+.div-inner
+{
+     margin: 0 auto;
+     width: 100px; 
+	 height: 100px;
+}
+.loginBoxHide
+{
+     margin: 0 auto;
+     width: 600px; 
+	 display: none;
+}
+.loginBoxShow
+{
+     margin: 0 auto;
+     width: 600px; 
+	 display: inLine !important;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.centered {
+  text-align: center;
+}
+.monthname {
+  width: 18em;
+}
+.pointer {
+  cursor: pointer;
+}
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.calendar p {
+	margin-bottom: .5em;
+	color: #d09015;
+}
+.calendar {
+	background: #222;
+	color: #ddd;
+	padding: .5em .5em 1em;
+	max-width: 20em;
+	min-height: 15em;
+	margin: .5em auto;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.calendar li {
+	float: left;
+	width: -webkit-calc(100%/7);
+	text-align: center;
+	padding: .25em 0;
+	cursor: pointer;
+	border-bottom: 1px solid #444;
+}
+.calendar li:hover, .calendar li.red {
+	color: red;
+}
+.calendar li:nth-child(-n+7) {
+	color: #666;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navitems {
+    width: 50x;
+    height: 43px;
+}
